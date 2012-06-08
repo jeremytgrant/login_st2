@@ -1,0 +1,26 @@
+---
+applications:
+  ./api:
+    name: api
+    framework:
+      name: php
+      info:
+        mem: 128M
+        description: PHP Application
+        exec: 
+    url: ${name}.${target-base}
+    mem: 128M
+    instances: 1
+  ./login:
+    name: login
+    framework:
+      name: standalone
+      info:
+        mem: 64M
+        description: Standalone Application
+        exec: 
+    runtime: php
+    command: 
+    url: 
+    mem: 128M
+    instances: 1
