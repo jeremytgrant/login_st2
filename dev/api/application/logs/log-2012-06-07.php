@@ -1,0 +1,6 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2012-06-07 22:30:08 --> Severity: Warning  --> date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CDT/-5.0/DST' instead /Users/jgrant/Sites/Login/api/system/libraries/Log.php 86
+ERROR - 2012-06-07 22:30:08 --> Severity: Warning  --> date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'America/Chicago' for 'CDT/-5.0/DST' instead /Users/jgrant/Sites/Login/api/system/libraries/Log.php 99
+ERROR - 2012-06-07 22:30:08 --> Unable to load the requested class: format
+ERROR - 2012-06-07 22:30:08 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /Users/jgrant/Sites/Login/api/application/controllers/api.php:61) /Users/jgrant/Sites/Login/api/system/core/Common.php 446
