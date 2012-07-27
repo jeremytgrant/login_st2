@@ -21,7 +21,9 @@ cd Login_st2
 mkdir -p dev live/api/
 cd ~/Sites/sencha-touch-2.0.1.1
 sencha generate app -n Login_st2 --path=~/Sites/login_st2/dev/ -l all
-
+cd ../Login_st2/dev
+sencha app build testing
+sencha app build production -d ../live/
 
 rsync -avP ~/Sites/CodeIgniter-Ion-Auth/* ~/Sites/login_st2/dev/api/application
 
